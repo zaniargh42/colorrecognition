@@ -8,3 +8,4 @@ after that we have a list named imageaddress that includs addresses of all files
 
 2. second step is to convert your images to numpy array. the input for a CNN model should be some numbers that come from the image pixels. the convertion take a while to convert and i don't know why!(please if anybody can help me whit that i would be appreciated)
 
+3.third step is to turn data labels into categorical numbers. 
