@@ -22,4 +22,5 @@ after that we have a list named imageaddress that includs addresses of all files
 
 7. it's time to make the model. i used and old model structure os mine that i used it for another purpose. but it has very good results on this data and I decide to use it here.
 
-8. enjoy the loss: 0.0386 - acc: 0.9856 - val_loss: 1.9504 - val_acc: 0.7422
+8. I've got this result after 100 epochs:
+loss: 0.0386 - acc: 0.9856 - val_loss: 1.9504 - val_acc: 0.7422
