@@ -22,3 +22,8 @@ cweight={0:0.9169,
         5:0.9209,
         6:0.9151,
         7:0.9238}
+
+# converting labelsets to categorical sets
+
+y_train = keras.utils.to_categorical(y_train,num_classes=8)
+y_test = keras.utils.to_categorical(y_test, num_classes=8)
