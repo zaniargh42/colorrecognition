@@ -4,3 +4,7 @@ the images is noise free and we dont need any preprocessing before the the main 
 
 1. first step to build the model is to prepare the data. the data must be in the shape of an numpy array. go to the file step1.py
 after that we have a list named imageaddress that includs addresses of all files and a list named labels that has the label of any image.
+
+
+2. second step is to convert your images to numpy array. the input for a CNN model should be some numbers that come from the image pixels. the convertion take a while to convert and i don't know why!(please if anybody can help me whit that i would be appreciated)
+
