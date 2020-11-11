@@ -8,4 +8,10 @@ after that we have a list named imageaddress that includs addresses of all files
 
 2. second step is to convert your images to numpy array. the input for a CNN model should be some numbers that come from the image pixels. the convertion take a while to convert and i don't know why!(please if anybody can help me whit that i would be appreciated)
 
-3.third step is to turn data labels into categorical numbers. 
+3. third step is to turn data labels into categorical numbers. 
+
+4. in this step we want to split our data to train and test sets.
+
+5. step 5 is about to give weights to our classes. if we don't calculate weights our models prediction would be wrong and not measurable. for calculates weights we divide the number of datas in each class by sum of all datas and then substract 1 from that and put weights in a dictionary.
+
+6. 
