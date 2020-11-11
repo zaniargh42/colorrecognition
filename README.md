@@ -14,4 +14,8 @@ after that we have a list named imageaddress that includs addresses of all files
 
 5. step 5 is about to give weights to our classes. if we don't calculate weights our models prediction would be wrong and not measurable. for calculates weights we divide the number of datas in each class by sum of all datas and then substract 1 from that and put weights in a dictionary.
 
-6. 
+6. we need to convert our labelset to categorical.
+
+7.it's time to make the model. i used and old model structure os mine that i used it for another purpose. but it has very good results on this data and I decide to use it here.
+
+8.
