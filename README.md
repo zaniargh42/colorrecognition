@@ -24,3 +24,5 @@ after that we have a list named imageaddress that includs addresses of all files
 
 8. I've got this result after 100 epochs:
 loss: 0.0386 - acc: 0.9856 - val_loss: 1.9504 - val_acc: 0.7422
+
+let me know your results. i'll be happy too.
