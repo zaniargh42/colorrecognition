@@ -8,4 +8,4 @@ for x in os.listdir('the path of the files/'+'train/'):
         label.append(x)
     
 #now we have a list named imageaddress that includs addresses of all files and a list named labels that has the label of any image.
-# this is a new comment to test the git/////
+# this is a new comment to test the git/////momo
